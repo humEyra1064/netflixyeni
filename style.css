@@ -10,11 +10,23 @@ color: white;}
 
 
 h1{text-align: center;
+    padding: 10px;
+
+}
+
+h1 + p {padding: 10px;
+    font-weight: 900;
 
 }
 .container div {
     text-align: left;
+    
 
+
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
 
 }
 
@@ -28,5 +40,22 @@ h1{text-align: center;
         padding: 30px;
  }
 
- .gender {text-align: left;
-}
+ .submit {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 900;
+ }
+ .name input {width: 300px;
+    height: 30px;
+ }
+ .age input {width: 300px;
+    height: 30px;
+ }
+ .email input {width: 300px;
+    height: 30px;
+ }
+ .ilk {width: 300px;
+    height: 30px;
+ }
