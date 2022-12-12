@@ -6,15 +6,27 @@ box-sizing: border-box;}
 body{background-image: url(background_image.jpg);background size: cover; 
 
 text-align:center;
-color: white;)
+color: white;}
 
 
 h1{text-align: center;
-padding: 30px;}
 
-form{width: fit-content;
-display: inline-block;
-padding: 10px;
-background-color: rgba(0,0,0,0.7);}
+}
+.container div {
+    text-align: left;
 
-.inputdiv{text-align: left;}
+
+}
+
+
+.header {color: white;
+    font-weight: 900;}
+    form {
+        background-color: rgba(6, 6, 6, 0.879 );
+        display: inline-block;
+        width: fit-content;
+        padding: 30px;
+ }
+
+ .gender {text-align: left;
+}

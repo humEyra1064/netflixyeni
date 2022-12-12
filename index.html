@@ -8,42 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="conteiner">
-    <h1>NET<span style="color: red;">FLIX</span></h1>
-    <form action="">
-        <p>Thank you for signing up at Netflıx.Tell us more about your self</p>
+    <div class="container">
+    <h1>NET<span style="color: red;">FLIX</span></h1> 
+    <p class="header">Thank you for signing up at Netflıx.Tell us more about your self</p>
 
-        <div class="ınputdiv">
+    <form action="">
+       
+
+        <div class="first">
             <div class="name">
                 <label for="name">Name</label><br>
                 <input type="text" name="name" id="name" placeholder="Enter your name" required>
 
-            </div>
+            </div><br>
 
             <div class="age">
                 <label for="age">Age</label><br>
                 <input type="number" name="age" id="age" placeholder="Age" required>
 
-            </div>
+            </div><br>
 
             <div class="email">
                 <label for="email">Email</label><br>
                 <input type="email" name="email" id="email" placeholder="Enter your name" required>
 
-            </div>
-            <div class="type">
-                <label for="type">Content type</label><br>
-                <select name="type" id="type">
+            </div><br>
+            <div class="movie">
+                <label for="select" id="role">Content type</label><br>
+                <select class="ilk" name="role" id="role">
                     <option value="series">Series</option>
                     <option value="movies">Movies</option>
                     <option value="realitysow">Reality Show</option>
             </select>
-          </div>
+          </div><br>
         </div>
 
-        <div class="moviecheck">
+        <div class="check">
 
-            <label for="movie">Movie type</label><br>
+            <p>Movie Type</p>
 
             <input type="checkbox" name="movie" id="comedy">
             <label for="comedy">Comedy</label><br>
@@ -56,10 +58,9 @@
             <input type="checkbox" name="movie" id="romance">
             <label for="romance">Romance</label><br>
 
-       </div>
-
-       <div class="gender" >
-        <label for="gender">Gender</label><br>
+       </div><br>
+      <div class="gender">
+        <p>Gender</p>
 
         <input type="radio" name="male" id="male">
         <label for="male">Male</label><br>
@@ -70,19 +71,19 @@
         <input type="radio" name="male" id="other">
         <label for="other">Other</label><br>
 
-     </div>
+     </div><br>
 
      <div class="feed">
-        <label for="feed">Feed back</label><br>
+        <p>Feed Back</p>
 
      <textarea name="feed" id="feed" cols="30" rows="5" placeholder="Anny comment"></textarea>
     </div>
 
-    <div class="submit">
-        <input type="submit" value="submit">
+    
+        <input type="submit" class="submit" value="submit">
 
 
-    </div>
+    
 
 
 
